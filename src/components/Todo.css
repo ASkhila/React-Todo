@@ -1,0 +1,138 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(235, 240, 243);
+    height: 100vh;
+}
+.Todos-Heading{
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 46px;
+    font-weight: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.create-task-heading{
+font-family: "roboto";
+font-weight: 500;
+font-size: 32px;
+margin-left: 25%;
+margin-top: 15px;    
+}
+.input-value{
+    background-color: white;
+    padding:15px;
+    border: 0;
+    margin:15px;
+    border-radius: 5px;
+    width:50%;
+    margin-left: 25%;
+}
+.add-button{
+    background-color: #4c63b6;
+    color: white;
+   margin:5%;
+   font-family: "roboto";
+   font-size: 18px;
+   border-width: 0px;
+   border-radius: 4px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+   padding-left:20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.Edit-Button{
+    background-color: #202d5b;
+    color: white;
+    font-family: "roboto";
+   font-size: 18px;
+   border-width: 0px;
+   border-radius: 4px;
+   margin-left: 15%;
+   padding: 15px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-bottom: 15px;
+   
+  margin-top: 15px;
+   
+}
+.delete-button{
+    background-color: #b13232;
+    color: white;
+    font-family: "roboto";
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-left: 15%;
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+   
+
+}
+.save-button{
+    margin:50%;
+    background-color: #4c63b6;
+    color: white;
+ 
+   font-family: "roboto";
+   font-size: 18px;
+   border-width: 0px;
+   border-radius: 4px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+   padding-left:20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+.checkbox{
+    width: 25%;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 12px;
+    margin-bottom: 15px;
+
+    
+}
+
+
+.label-style{
+    font-family: "Roboto"; 
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: #a6b6f0;
+    width:16%;
+    text-decoration: none;
+    
+}
+#labelText {
+    text-decoration: none;
+}
+#checkbox:checked + #labelText {
+    text-decoration: line-through;
+}
+li{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+h4{
+    text-align: center;
+    color:red;
+    margin-top:25px
+}
+
